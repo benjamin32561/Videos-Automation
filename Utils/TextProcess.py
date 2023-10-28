@@ -11,7 +11,7 @@ from google.cloud import texttospeech
 N_WORDS_PER_SEGMENT_RANGE = (2,5)
 
 MAX_SILENCE_BEFORE_SPLIT = 3 # seconds
-MAX_SHORT_LENGTH = 80 # seconds
+MAX_SHORT_LENGTH_RANGE = (60,140) # seconds
 MIN_SHORT_LENGTH = 10 # seconds
 MAX_WORDS_PER_SHORT = 10000
 SPLIT_SHORT_CHARACTERS = ['.', '?', '!']
@@ -152,8 +152,9 @@ def SplitToShorts(data:list):
   shorts = []
   short = GenerateEmptyShort()
   last_end = -1
+  max_short_length = random.randint(MAX_SHORT_LENGTH_RANGE[0],MAX_SHORT_LENGTH_RANGE[1])
   for line in data:
-    if short['duration']<MAX_SHORT_LENGTH \
+    if short['duration']<max_short_length \
         and last_end!=-1 \
         and line['start']-last_end<MAX_SILENCE_BEFORE_SPLIT:
       if short['start']==-1:

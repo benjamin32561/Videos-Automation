@@ -2,7 +2,7 @@ import whisper_timestamped as whisper
 from torch import cuda
 
 DEVICE = f'cuda:{cuda.current_device()}' if cuda.is_available() else 'cpu'
-WHISPER_SIZE = "tiny.en"
+WHISPER_SIZE = "medium.en"
 
 def CleanTimestamps(whisper_result):
   final = []
