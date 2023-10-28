@@ -8,3 +8,4 @@ torch==2.0.1
 tqdm==4.66.1
 transformers==4.34.0
 whisper_timestamped==1.12.20
+google-cloud-texttospeech==2.14.1
