@@ -1,0 +1,13 @@
+# Ignore images and videos
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Ignore the "__pycache__" folder
+__pycache__/

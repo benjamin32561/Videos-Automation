@@ -1,0 +1,30 @@
+I want to learn about philosophy, more precisely, I want to learn it in chronological order.
+Write me a book which starts at the very first philosophical idea (or thinker) and continues from there.
+For each important philosopher throughout the history of philosophy, elaborate a little bit about him, time he was alive, some funny or interesting story about the way he lived or some encounter with another influential individual of his time, political status, influence etc.
+Focus mainly on European and western philosophers.
+Divide the book to chapters, each chapter should focus on a single individual/idea.
+Each chapter should be built as follows:
+
+
+Chapter #: Philosopher's name (time he lived)
+Introduction
+An introduction about the philosopher.
+
+Life and Influence
+Information about his life and influence in general.
+
+Philosophical Ideas
+Mentioning and explaining his main philosophical ideas, elaborate about each of them.
+This should be the longest and most detailed part of each chapter.
+
+Impact on Philosophy
+The philosopher's impact on the future of philosophy.
+
+Story: <Story Title>
+Some funny/interesting story about the philosopher, a great example for something to write here is the story where Diogenes told Alexander he blocks him the sunlight after Alexander told him that he would do anything he asks for.
+
+
+I want to emphasis the importance of the 'Philosophical Ideas' part, this should be the longest and most detailed part in each chapter, explain in detail each important idea the philosopher had, I don't want you to divide each philosophical idea and number them. Please elaborate extensively in this part.
+Note that I do not have a list of philosophers, start from the first recorded philosopher and continue from there, I do know I want you to include Diogenes, Socrates, Plato, Aristotle, Marcus Aurelius, Seneca and Nietzsche. Other then them, write about each philosopher is worth mentioning.
+
+Ask me anything you need in order to write it in the best way possible.
