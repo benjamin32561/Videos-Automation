@@ -8,6 +8,7 @@
 *.avi
 *.mov
 *.mkv
+*.mp3
 
 # Ignore the "__pycache__" folder
 __pycache__/
