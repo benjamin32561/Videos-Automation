@@ -15,6 +15,7 @@ MAX_SHORT_LENGTH = 80 # seconds
 MIN_SHORT_LENGTH = 10 # seconds
 MAX_WORDS_PER_SHORT = 10000
 SPLIT_SHORT_CHARACTERS = ['.', '?', '!']
+MAX_GAP_IN_SEGMENT = 0.1 # seconds
 
 def GenerateAudioFromText(text, output_file):
     # Instantiates a client
@@ -54,8 +55,15 @@ def SplitToSegments(words):
             line = words
             words = []
         else:
-            line = words[:n_words]
-            words = words[n_words:]
+            line.append(words[0])
+            words.pop(0)
+            while line[-1]['end']-words[0]['start']<MAX_GAP_IN_SEGMENT and len(line)<n_words:
+              line.append(words[0])
+              words.pop(0)
+
+            # line = words[:n_words]
+            # words = words[n_words:]
+        
         line_dict = {
             'text': ' '.join([w['text'] for w in line]),
             'start': line[0]['start'],
