@@ -40,19 +40,25 @@ def HandleVideoURL(url:str):
     CreateFolder(shorts_folder_path)
     shorts_json_path = os.path.join(vid_folder_path,'shorts.json')
     whisper_json_path = os.path.join(vid_folder_path,'whisper.json')
+    all_text_whisper_json_path = os.path.join(vid_folder_path,'all_text_whisper.json')
     print("   Downloaded data")
 
     if not os.path.exists(shorts_json_path):
         # getting text
-        segments = []
-        if not os.path.exists(whisper_json_path):
+        segments = None
+        all_text_whisper = None
+        if not os.path.exists(whisper_json_path) or not os.path.exists(all_text_whisper_json_path):
             segments, all_text_whisper = ExtractTimestampsWhisper(audio_path)
             segments = CleanTimestamps(segments)
             with open(whisper_json_path,'w+') as f:
                 f.write(json.dumps(segments, indent=4))
+            with open(all_text_whisper_json_path,'w+') as f:
+                f.write(json.dumps(all_text_whisper, indent=4))
         else:
             with open(whisper_json_path) as f:
                 segments = json.load(f)
+            with open(all_text_whisper_json_path) as f:
+                all_text_whisper = json.load(f)
         print("   Exctracted Timestamps")
 
         # Text Process
