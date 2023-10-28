@@ -55,6 +55,7 @@ def SplitToSegments(words):
             line = words
             words = []
         else:
+            line = []
             line.append(words[0])
             words.pop(0)
             while line[-1]['end']-words[0]['start']<MAX_GAP_IN_SEGMENT and len(line)<n_words:
