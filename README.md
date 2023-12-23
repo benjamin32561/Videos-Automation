@@ -31,8 +31,5 @@ Installation
 
 Examples
 ------------
-Long Form Content to shorts:
-[![https://drive.google.com/file/d/1usezJoEvPe9YIHGwo6mc0Q-47DfidadG/view?usp=sharing]()](https://drive.google.com/file/d/1usezJoEvPe9YIHGwo6mc0Q-47DfidadG/view?usp=sharing)
-
-Text to video:
-[![https://drive.google.com/file/d/1ho16jvkadFDuQ0KJ0oRZvqIErpRLjcEd/view?usp=drive_link]()](https://drive.google.com/file/d/1ho16jvkadFDuQ0KJ0oRZvqIErpRLjcEd/view?usp=drive_link)
+- [Long Form Content to shorts](https://drive.google.com/file/d/1usezJoEvPe9YIHGwo6mc0Q-47DfidadG/view?usp=sharing)
+- [Text to video](https://drive.google.com/file/d/1ho16jvkadFDuQ0KJ0oRZvqIErpRLjcEd/view?usp=drive_link)
