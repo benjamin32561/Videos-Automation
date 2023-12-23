@@ -28,3 +28,11 @@ Installation
 2.  Clone the repository: `git clone [repository URL]`.
 3.  Install required Python libraries: `pip install -r requirements.txt`.
 4.  Set up Google Cloud credentials as per the official documentation.
+
+Examples
+------------
+Long Form Content to shorts:
+[![https://drive.google.com/file/d/1usezJoEvPe9YIHGwo6mc0Q-47DfidadG/view?usp=sharing]()](https://drive.google.com/file/d/1usezJoEvPe9YIHGwo6mc0Q-47DfidadG/view?usp=sharing)
+
+Text to video:
+[![https://drive.google.com/file/d/1ho16jvkadFDuQ0KJ0oRZvqIErpRLjcEd/view?usp=drive_link]()](https://drive.google.com/file/d/1ho16jvkadFDuQ0KJ0oRZvqIErpRLjcEd/view?usp=drive_link)
