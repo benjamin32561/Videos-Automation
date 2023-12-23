@@ -6,6 +6,11 @@ Introduction
 
 Videos Automation is a versatile Python script designed to transform text or long-form videos into concise, engaging short videos. This project harnesses the power of the Google Cloud Text To Speech API and leverages open-source deep learning models to intelligently analyze and interpret text and audio. The aim is to automate the production of short-form content, making it ideal for content creators, marketers, and educators who wish to convert lengthy materials into more digestible formats.
 
+Examples
+------------
+- [Long Form Content to shorts](https://drive.google.com/file/d/1usezJoEvPe9YIHGwo6mc0Q-47DfidadG/view?usp=sharing)
+- [Text to video](https://drive.google.com/file/d/1ho16jvkadFDuQ0KJ0oRZvqIErpRLjcEd/view?usp=drive_link)
+  
 Features
 --------
 
@@ -28,8 +33,3 @@ Installation
 2.  Clone the repository: `git clone [repository URL]`.
 3.  Install required Python libraries: `pip install -r requirements.txt`.
 4.  Set up Google Cloud credentials as per the official documentation.
-
-Examples
-------------
-- [Long Form Content to shorts](https://drive.google.com/file/d/1usezJoEvPe9YIHGwo6mc0Q-47DfidadG/view?usp=sharing)
-- [Text to video](https://drive.google.com/file/d/1ho16jvkadFDuQ0KJ0oRZvqIErpRLjcEd/view?usp=drive_link)
